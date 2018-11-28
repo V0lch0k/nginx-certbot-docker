@@ -1,9 +1,8 @@
 # nginx-certbot-docker
 
+Run init the script
 
-    Run init the script
+    chmod +x ./init-letsencrypt.sh
+    sudo ./init-letsencrypt.sh
 
-chmod +x ./init-letsencrypt.sh
-sudo ./init-letsencrypt.sh
-
-    Run server docker-compose up
+Run `server docker-compose up`
