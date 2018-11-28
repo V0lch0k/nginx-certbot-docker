@@ -1,9 +1,9 @@
 #!/bin/bash
 
-domains=( "www.mapmytask.com" )
+domains=( "www.example.com" )
 rsa_key_size=4096
 data_path="./data/certbot"
-email="i.s@solvexia.com" #Adding a valid address is strongly recommended 
+email="example@example.com" #Adding a valid address is strongly recommended 
 staging=1 #Set to 1 if you're just testing your setup to avoid hitting request limits
 
 echo "### Preparing directories in $data_path ..."
